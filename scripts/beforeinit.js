@@ -19,7 +19,7 @@ var perEnv = "environment.maxnodescount",
 var   nodesPerEnvMin = 7,
       nodesPerGroupMin = 2,
       maxCloudlets = 32,
-      markup = "", cur = null, text = "used", letsencrypt = true, prod = true, litespeed = true;
+      markup = "", cur = null, text = "used", letsencrypt = true, prod = true, litespeed = false;
 
 if (isLS.result == 0 || isLS.result == Response.PERMISSION_DENIED) {
   var settings = jps.settings.settingsMagentoV2;
